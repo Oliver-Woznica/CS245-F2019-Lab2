@@ -41,7 +41,7 @@ int main()
 	random_device seed;
 
 	// Create a random integer generator; chooses random ints from 1 to 5 (inclusive)
-	uniform_int_distribution<int> rand_dist(1, 6);
+	uniform_int_distribution<int> rand_dist(1, 5);
 
 	// Get the next random integer
 	int pick_a_number = rand_dist(seed);
